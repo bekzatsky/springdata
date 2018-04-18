@@ -5,4 +5,5 @@ import kz.springlesson.springdata.model.User;
 public interface UserDao {
 
     void addUser(User user);
+    User getUserById(int id);
 }

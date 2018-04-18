@@ -12,5 +12,6 @@ public class Runner {
         UserDao userDao = (UserDao) ac.getBean("userDao");
         User user = (User) ac.getBean("user");
         userDao.addUser(user);
+        System.out.println(userDao.getUserById(7));
     }
 }
